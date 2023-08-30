@@ -7,7 +7,7 @@
     <MyIP/>
     <Shell>bash</Shell>
     <Privileged>false</Privileged>
-    <Support>https://github.com/SamTV12345/PodFetch/issues</Support>
+    <Support>https://forums.unraid.net/topic/144365-support-podfetch-support-thread/</Support>
     <Project>https://github.com/SamTV12345/PodFetch/wiki</Project>
     <Overview/>
     <Category>MediaServer:Music MediaServer:Other</Category>

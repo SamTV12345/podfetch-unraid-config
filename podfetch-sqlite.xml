@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>PodFetch</Name>
+    <Description>
+    [b]Description[/b][br]
+    PodFetch is a free, web-based Podcast server, which allows to download podcasts from Rss feeds, iTunes and.PodIndex. It also contains a configuration for Single Sign On(SSO) and GPodder synchronization, allowing you to login via AntennaPod and enjoy a synchronized listening experience between the browser and your phone. So just grab your phone, start listening your favorite podcast and once your back at your Laptop you can continue right where you stopped.[br][br]
+    [b]Configuration[/b][br]
+    [b]/db[/b] This is where the application stores it SQLite database.[br]
+    [b]/podcasts[/b] This is where all the podcasts are saved locally.[br][br]
+    [b]Documentation[/b][br]
+    https://github.com/SamTV12345/PodFetch/wiki[br][br]
+    </Description>
     <Repository>samuel19982/podfetch:latest</Repository>
     <Registry>https://hub.docker.com/r/samuel19982/podfetch</Registry>
     <Network>bridge</Network>

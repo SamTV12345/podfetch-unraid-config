@@ -27,10 +27,10 @@
     <Config Name="Podcast path" Target="/app/podcasts" Default="" Mode="rw" Description="Path where your podcasts are saved" Type="Path" Display="always-hide" Required="true" Mask="false"/>
     <Config Name="Enable gPodder Integration" Target="GPODDER_INTEGRATION_ENABLED" Default="true|false" Description="Allow gPodder sync with apps such as AntennaPod" Type="Variable" Display="advanced" Required="false" Mask="false"/>
     <Config Name="Behind Reverse Proxy" Target="REVERSE_PROXY" Default="false|true" Description="Indicates if the server is behind a reverse proxy" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-    <Config Name="Basic auth" Target="BASIC_AUTH" Default="false|true" Description="Indicates if present that basic auth should be added" Type="Variable" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="Basic auth" Target="BASIC_AUTH" Default="" Description="Indicates if present that basic auth should be added" Type="Variable" Display="advanced" Required="false" Mask="false"/>
     <Config Name="Basic auth username" Target="USERNAME" Default="" Description="Your basic auth username" Type="Variable" Display="advanced" Required="false" Mask="false"/>
     <Config Name="Basic auth password" Target="PASSWORD" Default="" Description="Your basic auth password" Type="Variable" Display="advanced" Required="false" Mask="true"/>
-    <Config Name="Oidc auth" Target="OIDC_AUTH" Default="false|true" Description="Indicates that OIDC auth should be used" Type="Variable" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="Oidc auth" Target="OIDC_AUTH" Default="" Description="Indicates that OIDC auth should be used" Type="Variable" Display="advanced" Required="false" Mask="false"/>
     <Config Name="OIDC authority" Target="OIDC_AUTHORITY" Default="" Description="The url of the OIDC authority." Type="Variable" Display="advanced" Required="false" Mask="false"/>
     <Config Name="OIDC client id" Target="OIDC_CLIENT_ID" Default="" Description="Client id of the oidc client. Note that this is a public client without a secret" Type="Variable" Display="advanced" Required="false" Mask="false"/>
     <Config Name="OIDC Redirect URI" Target="OIDC_REDIRECT_URI" Default="" Description="Redirect URI of PodFetch. This is normally your server url variable + /ui/login" Type="Variable" Display="advanced" Required="false" Mask="false"/>
